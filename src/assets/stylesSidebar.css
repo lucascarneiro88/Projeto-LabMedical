@@ -1,0 +1,12 @@
+.modal {
+  width: 300px;
+}
+
+.modal-content {
+  width: 300px;
+}
+/* lista sidebar  */
+.list-group-item:hover{
+background-color: rgba(25, 66, 202, 0.5) !important;
+}
+

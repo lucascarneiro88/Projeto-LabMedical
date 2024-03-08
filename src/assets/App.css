@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+
+}
+
+html,
+body {
+  height: 100%
+}
+
+/* navbar */
+nav {
+  background: linear-gradient(-50deg, #1c4ccff8, #458adaf6, #99d9ec);
+  position: sticky;
+  height: 5rem;
+  width: 100%;
+  z-index: 2;
+}
+
+/* logo sidebar */
+.sidimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  margin: 300px auto 0;
+}
+
+/* logo nav */
+.sidimg img {
+  max-width: 100%;
+}
+
+.lognav img {
+  width: 75px;
+  height: auto;
+}
+
+/* titulo paginas */
+h1 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-align: center;
+  padding: 3rem;
+}
+
+
+/* css login */
+.area-login {
+
+  display: flex;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+/* formulario login */
+.form-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 1rem;
+  box-shadow: rgba(13, 13, 197, 0.2) 0px 7px 29px 0px;
+  margin-top: -5rem;
+}
+
+/* sombras campos login */
+#Email,
+#Senha {
+  background-color: #4c80ce5b;
+  width: 100%;
+  height: 3em;
+  border: none;
+  margin: 5px;
+  margin-bottom: -3px;
+}
+
+/* botao */
+#btnLogin {
+  background: linear-gradient(-50deg, #99d9ec, #1c4ccfe5);
+  border: none;
+  width: 20%;
+  height: 3em;
+  margin: 2rem;
+  align-items: center;
+}
+
+/* botoes salvar e ver mais */
+.btn-salvar,
+.btn-ver {
+  background: linear-gradient(-50deg, #99d9ec, #1c4ccfe5);
+  border: none;
+  /* width: rem; */
+  height: 3em;
+  margin: 20px;
+  padding: 5px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* inputs obrigatorio  */
+span {
+  color: red;
+  font-size: 12px;
+}
+
+/* container dos formularios */
+.container,
+table {
+  background-color: #ffffff;
+  margin: 5px 0;
+  font-family: 'Barlow Semi Condensed', sans-serif, bold;
+
+  color: #1e27a8;
+}
+
+/* testo de apresentação bem vindo */
+.text h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Barlow, Condensed;
+  font-size: 20px;
+  color: #173f8aaf;
+  margin-top: -5em;
+  height: 200px;
+}
+
+/* links não possui conta e esqueceu senha */
+form a {
+  margin: 1em;
+  color: #7786db;
+  font-size: 15px;
+  margin-top: -1em;
+}
+
+
+/* Cards couts dashboard */
+.dashboard-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(17, 67, 173, 0.1);
+}
+
+.dashboard-card h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dashboard-card p {
+  margin-bottom: 10px;
+}
+
+/* rodapé */
+.footer {
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: -1rem;
+}
